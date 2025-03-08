@@ -13,6 +13,9 @@ public class Main {
         System.out.println("meu cargo é: "+empresa.CargoFuncionario);
         System.out.println("Salario de: "+empresa.ValorSalarioFuncionario);
 
+        EmpresaSetor empresaSetor = new EmpresaSetor();
+        System.out.println(empresaSetor.nomeSetorJuridico);
+
 //       Funcionario funcionario = new Funcionario();
 //
 //        System.out.println("Meu Nome é: "+funcionario.NomeFuncionario);
